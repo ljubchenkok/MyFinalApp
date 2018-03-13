@@ -14,5 +14,7 @@
 .idea/vcs.xml
 .DS_Store
 /build
+/release
+/debug
 /captures
 .externalNativeBuild
