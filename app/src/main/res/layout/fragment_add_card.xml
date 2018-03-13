@@ -1,0 +1,157 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:mask="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/margin_card"
+    tools:context="ru.com.penza.myfinalapp.fragments.AddCardFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/image_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true">
+
+            <ImageView
+                android:id="@+id/person_photo"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="@dimen/margin_card"
+                android:layout_marginTop="@dimen/margin_card"
+                android:contentDescription="@string/image_description"
+                android:scaleType="centerCrop"
+                android:src="@drawable/einstein"/>
+
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/image_container">
+
+            <TextView
+                android:id="@+id/labelFirstName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="@dimen/margin_card"
+                android:labelFor="@+id/firstName"
+                android:text="@string/label_name" />
+
+            <EditText
+                android:id="@+id/firstName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/labelFirstName"
+                android:layout_marginStart="@dimen/margin_card"
+                android:hint="@string/namePattern"
+                android:imeOptions="actionNext"
+                android:inputType="text" />
+
+            <TextView
+                android:id="@+id/labelSecondName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/firstName"
+                android:layout_marginStart="@dimen/margin_card"
+                android:labelFor="@+id/lastName"
+                android:text="@string/label_patronymic" />
+
+            <EditText
+                android:id="@+id/secondName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/labelSecondName"
+                android:layout_marginStart="@dimen/margin_card"
+                android:hint="@string/patronicPattert"
+                android:imeOptions="actionNext"
+                android:inputType="text" />
+
+            <TextView
+                android:id="@+id/labelLastName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/secondName"
+                android:layout_marginStart="@dimen/margin_card"
+                android:labelFor="@+id/lastName"
+                android:text="@string/label_surname" />
+
+            <EditText
+                android:id="@+id/lastName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/labelLastName"
+                android:layout_marginStart="@dimen/margin_card"
+                android:hint="@string/surnamePattern"
+                android:imeOptions="actionNext"
+                android:inputType="text" />
+
+
+            <TextView
+                android:id="@+id/labelPhone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lastName"
+                android:layout_marginStart="@dimen/margin_card"
+                android:labelFor="@+id/phone"
+                android:text="@string/label_phone" />
+
+            <br.com.sapereaude.maskedEditText.MaskedEditText
+                android:id="@+id/phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/labelPhone"
+                android:layout_marginStart="@dimen/margin_card"
+                android:hint="@string/phone_hint"
+                android:imeOptions="actionDone"
+                android:inputType="phone"
+                android:typeface="monospace"
+                app:keep_hint="false"
+                mask:allowed_chars="1234567890"
+                mask:mask="###-###-####" />
+
+            <TextView
+                android:id="@+id/positionLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@id/btnPosition"
+                android:layout_below="@+id/phone"
+                android:layout_marginStart="@dimen/margin_card"
+                android:layout_marginTop="@dimen/margin_card"
+                android:gravity="center_horizontal"
+                android:text="@string/positionLabel" />
+
+
+            <ImageButton
+                android:id="@+id/btnPosition"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:layout_alignParentEnd="true"
+                android:layout_below="@+id/phone"
+                android:src="@drawable/ic_edit_location_black_24dp"
+                android:layout_marginBottom="@dimen/margin_card"
+                android:layout_marginEnd="@dimen/margin_card"
+                android:layout_marginStart="@dimen/margin_card" />
+
+            <Button
+                android:id="@+id/btnSave"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/btnPosition"
+                android:layout_marginEnd="@dimen/margin_card"
+                android:layout_marginStart="@dimen/margin_card"
+                android:text="@string/btn_save" />
+
+        </RelativeLayout>
+    </RelativeLayout>
+</ScrollView>
