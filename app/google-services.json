@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "920126967600",
+    "firebase_url": "https://myfinalapp-952da.firebaseio.com",
+    "project_id": "myfinalapp-952da",
+    "storage_bucket": "myfinalapp-952da.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:920126967600:android:bd4c08f4901d86bb",
+        "android_client_info": {
+          "package_name": "ru.com.penza.myfinalapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "920126967600-gsk2309oqdpooiautd74ktro0u8ikrud.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ru.com.penza.myfinalapp",
+            "certificate_hash": "bc380a4b8368cda425394fbc19633d9317c611e4"
+          }
+        },
+        {
+          "client_id": "920126967600-9gmlbkiabaqn20auglpclpej3lsv3gf5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBs246MdEY101LyTcooHV4B4vMRErTRRvQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "920126967600-9gmlbkiabaqn20auglpclpej3lsv3gf5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,3 +1,52 @@
 <resources>
-    <string name="app_name">MyFinalApp</string>
+    <string name="app_rus_name">ДЗ №13</string>
+    <string name="action_settings">Настройки</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="label_name">Имя</string>
+    <string name="label_surname">Фамилия</string>
+    <string name="label_patronymic">Отчество</string>
+    <string name="btn_save">Сохранить</string>
+    <string name="empty_list">Список пуст</string>
+    <string name="dialog_title">Действия с карточкой</string>
+    <string name="dialog_message">Какое действие выполнить?</string>
+    <string name="dialog_change">Редактировать</string>
+    <string name="dialog_delete">Удалить</string>
+    <string name="action_add">Добавить</string>
+    <string name="list_title">Созданные карточки</string>
+    <string name="add_card_title">Добавить/Редактировать карточку</string>
+    <string name="fontLabel">Размер шрифта</string>
+    <string name="colorLabel">Выберите цвет фона</string>
+    <string name="speedLabel">Скорость прокрутки</string>
+    <string name="reverseSortLabel">Сортировка в обратном порядке</string>
+    <string name="key_font">key_font</string>
+    <string name="key_speed">key_speed</string>
+    <string name="key_sort">key_sort</string>
+    <string name="key_start_download">key_start_download</string>
+    <string name="namePattern">Иван</string>
+    <string name="patronicPattert">Иванович</string>
+    <string name="surnamePattern">Иванов</string>
+    <string name="URL">https://my.api.mockaroo.com/contacts.json?key=43dd2e50</string>
+    <string name="label_phone">Номер телефона</string>
+    <string name="image_description">Фото</string>
+    <string name="phone_hint">1234567801</string>
+    <string name="startDownloadLabel">Обновлять список при запуске</string>
+    <string name="image_dialog_title">Изменить изображение</string>
+    <string name="image_dialog_message">Выберите источник изображения</string>
+    <string name="gallery">Галерея</string>
+    <string name="camera">Камера</string>
+    <string name="download_message">Данные обновляются. Пожалуйста, подождите...</string>
+    <string name="key_use_rx">key_use_rx</string>
+    <string name="useRX">Использовать RxJava для загрузки</string>
+    <string name="change_bkg">Цвет фона</string>
+    <string name="positionLabel">Место встречи</string>
+    <string name="address_found">Адрес найден</string>
+    <string name="no_address_found">Адрес не найден</string>
+    <string name="service_not_available">Сервис не доступен</string>
+    <string name="invalid_lat_long_used">Некорректные координаты</string>
+    <string name="no_location_data_provided">Нет данных о положении</string>
+    <string name="position_failure">Не удалось определить</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="key_use_google_maps">key_use_google_maps</string>
+    <string name="useGoogleMaps">Открывать карту в браузере</string>
+
 </resources>

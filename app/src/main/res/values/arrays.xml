@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="font_size_values">
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+        <item>35</item>
+        <item>40</item>
+        <item>45</item>
+    </string-array>
+    <string-array name="font_size_entries">
+        <item>20 sp.</item>
+        <item>25 sp.</item>
+        <item>30 sp.</item>
+        <item>35 sp.</item>
+        <item>40 sp.</item>
+        <item>45 sp.</item>
+    </string-array>
+    <string-array name="speed_entries">
+        <item>Быстро</item>
+        <item>Нормально</item>
+        <item>Медленно</item>
+    </string-array>
+    <string-array name="speed_values">
+        <item>10</item>
+        <item>1</item>
+        <item>0</item>
+    </string-array>
+</resources>

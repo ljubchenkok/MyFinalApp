@@ -1,0 +1,26 @@
+<android.support.v4.widget.SwipeRefreshLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/swipe_container"
+    tools:context="ru.com.penza.myfinalapp.fragments.ListFragment">
+
+
+    <ru.com.penza.myfinalapp.views.MyRecyclerView
+        android:id="@+id/recycle_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"/>
+
+    <TextView
+        android:id="@+id/empty_list_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="@string/empty_list" />
+
+</android.support.v4.widget.SwipeRefreshLayout>
